@@ -1,0 +1,151 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 12vh;
+  border: 1px solid;
+  padding: 30px;
+}
+
+header>h1 {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+header>div {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header>div:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-form {
+  width: 300px;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-form div {
+  margin-bottom: 12px;
+}
+
+.book-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+.form input {
+  border-radius: 8px;
+  border: 1px solid black;
+  height: 25px;
+  padding: 8px;
+}
+
+.book-form label {
+  font-size: 1.1rem;
+}
+
+.book-form div>label {
+  margin-bottom: 6px;
+}
+
+.book-form p {
+  margin-bottom: 6px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: opacity 0.2s;
+}
+
+.buttons button:hover {
+  opacity: 0.4;
+}
+
+.buttons button:active {
+  opacity: 0.2;
+}
+
+.hidden {
+  display: none;
+}
+
+.add-book {
+  font-size: 1.3rem;
+  padding: 14px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+.ad-book:hover {
+  opacity: 0.4;
+}
+
+.ad-book:active {
+  opacity: 0.2;
+}
+
+table {
+  margin-top: 10px;
+  width: 50vw;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+}
